@@ -1,0 +1,54 @@
+#head {
+    background-color: #7C3AED;
+    color: aliceblue;
+    text-align: center;
+    align-content: center;
+    height: 4rem;
+}
+
+.align {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 3px 5px;
+    gap: 2rem;
+}
+
+#content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+
+#data {
+    background-color: #F9A8D4;
+    color: white;
+    width: 20%;
+    align-items: center;
+    margin: auto;
+    text-align: center;
+    height: 3rem;
+    align-content: center;
+}
+
+img {
+    height: 19rem;
+    width: 12rem;
+    object-fit: cover;
+}
+
+body {
+    background-color: #F3E8FF;
+}
+
+#rock:hover,
+#scissor:hover,
+#paper:hover {
+    transform: scale(1.2);
+    cursor: pointer;
+
+}
+#data{
+    transition: 0.3s ;
+}
